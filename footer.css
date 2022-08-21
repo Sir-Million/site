@@ -1,0 +1,64 @@
+.footer-li
+{
+    border-radius: 50px;
+    list-style: none;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 7%;
+    margin: auto;
+}
+
+/* Hover and normal state */
+
+li a
+{
+    border-radius: 50px;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    width: 90px;
+    height: 90px;
+}
+
+li a .icon
+{
+    position: relative;
+    display: block;
+    font-size: 4em;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+li:hover a .icon
+{
+    opacity: 0;
+    transform: translateY(12px);
+}
+
+li a .text
+{
+    border-radius: 50px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 1.5em;
+    letter-spacing: 0.02em;
+    transition: 0.5s;
+    color: white;
+    opacity: 0;
+    transform: translateY(12px);
+}
+
+li:hover a .text
+{
+    opacity: 1;
+    transform: translateY(-2px);
+}

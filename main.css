@@ -1,0 +1,111 @@
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+body
+{
+    background: #202020;
+    color: white;
+    text-align: justify;
+    font-family: 'Silkscreen', cursive;
+    animation: transitionIn 2s;
+}
+
+.centrar
+{
+    transform: translateY(50%);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1
+{
+    color: #99f99f;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: 0.5s;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h1:hover
+{
+    transform: scale(1.1);
+    text-shadow: 0 0 25px limegreen;
+    transition: 0.5s;
+}
+
+h2
+{
+    font-size: 2em;
+    color: #99eaf9;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: 0.5s;
+    width: 100%;
+    display: block;
+}
+
+h2:hover
+{
+    transform: scale(1.1);
+    text-shadow: 0 0 25px skyblue;
+    transition: 0.5s;
+}
+
+.container
+{
+    background: #191919;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 45px;
+    border: 2px solid #99f99f;
+    transition: 0.5s;
+}
+
+.container:hover
+{
+    transform: translatey(-10px);
+    transform: scale(1.02);
+    box-shadow: 0px 0px 25px limegreen;
+    transition: 0.5s;
+}
+
+p
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+b
+{
+    color: lightpink;
+    text-shadow: 0px 0px 25px violet;
+    transition: 0.5s;
+}
+
+b:hover
+{
+    color: violet;
+    text-shadow: 0px 0px 50px lightpink;
+    transition: 0.5s;
+}
