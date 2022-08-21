@@ -1,21 +1,11 @@
-@keyframes transitionIn {
-    from {
-        opacity: 0;
-        transform: rotateX(10deg);
-    }
-    to {
-        opacity: 1;
-        transform: rotateX(0);
-    }
-}
-
 body
 {
     background: #202020;
     color: white;
     text-align: justify;
     font-family: 'Silkscreen', cursive;
-    animation: transitionIn 2s;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .centrar
@@ -69,11 +59,14 @@ h2:hover
 
 .container
 {
+    width: fit-content;
     background: #191919;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 5%;
     margin-bottom: 5%;
     border-radius: 45px;
